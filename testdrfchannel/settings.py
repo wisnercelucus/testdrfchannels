@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'channels',
     'posts',
 ]
 
@@ -69,6 +70,8 @@ TEMPLATES = [
     },
 ]
 
+
+ASGI_APPLICATION = "testdrfchannel.routing.application"
 WSGI_APPLICATION = 'testdrfchannel.wsgi.application'
 
 
