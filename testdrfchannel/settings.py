@@ -72,6 +72,7 @@ TEMPLATES = [
 
 
 ASGI_APPLICATION = "testdrfchannel.routing.application"
+
 WSGI_APPLICATION = 'testdrfchannel.wsgi.application'
 
 

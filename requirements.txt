@@ -8,6 +8,7 @@ constantly==15.1.0
 cryptography==2.9.2
 daphne==2.5.0
 Django==3.0.8
+django-model-utils==4.0.0
 djangorestframework==3.11.0
 hyperlink==19.0.0
 idna==2.10
@@ -25,3 +26,4 @@ sqlparse==0.3.1
 Twisted==20.3.0
 txaio==20.4.1
 zope.interface==5.1.0
+
